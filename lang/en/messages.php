@@ -1,0 +1,31 @@
+<?php
+
+return [
+
+    'Please Check Your Email we are send verification code, Verify it please' => 'Please Check Your Email we are send verification code, Verify it please',
+    'Verify Code Not Correct' => 'Verify Code Not Correct',
+    'Email Verified Successfully , You can Login Now' => 'Email Verified Successfully , You can Login Now',
+    'Invalid email or password' => 'Invalid email or password',
+    'Login successfully' => 'Login successfully',
+    'Logout successful' => 'Logout successful',
+    'Not Verify Reset Pasword Code , Verify it please and try again' => 'Not Verify Reset Pasword Code , Verify it please and try again',
+    'Reset Password Successfully' => 'Reset Password Successfully',
+    'Please Check Your Email, and Verify it' => 'Please Check Your Email, and Verify it',
+    'Old password does not match.' => 'Old password does not match.',
+    'Password changed successfully.' => 'Password changed successfully.',
+    'The username field is required.' => 'The username field is required.',
+    'The username has already been taken.' => 'The username has already been taken.',
+    'The fullname field is required.' => 'The fullname field is required.',
+    'The email field is required.' => 'The email field is required.',
+    'Please enter a valid email address.' => 'Please enter a valid email address.',
+    'The email has already been taken.' => 'The email has already been taken.',
+    'The password field is required.' => 'The password field is required.' ,
+    'The password must be at least :min characters.' => 'The password must be at least :min characters.',
+    'The password confirmation does not match.' => 'The password confirmation does not match.',
+    'The provided email does not exist in our records.' => 'The provided email does not exist in our records.',
+    'The old password field is required.' => 'The old password field is required.',
+    'The code field is required.' => 'The code field is required.',
+    'The code must be exactly :size characters.' => 'The code must be exactly :size characters.',
+    'Data Fetched Successfully' => 'Data Fetched Successfully',
+    'Rating Added Successfully' => 'Rating Added Successfully',
+];

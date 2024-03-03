@@ -1,0 +1,32 @@
+<?php
+
+return [
+
+    'Please Check Your Email we are send verification code, Verify it please' => 'يرجى مراجعة بريدك الالكتروني , أرسلنا لك كود التحقق يرجى تأكيد الحساب ',
+    'Verify Code Not Correct' => 'كود التحقق غير صحيح',
+    'Email Verified Successfully , You can Login Now' => 'تم تأكيد البريد الإلكتروني بنجاح , يمكنك تسجيل الدخول الان',
+    'Invalid email or password' => ' خطأ في كلمة المرور أو البريد الالكتروني ',
+    'Login successfully' => 'تم تسجيل الدخول بنجاح',
+    'Logout successful' => 'تم تسجيل الخروج بنجاح',
+    'Reset Password Successfully' => 'تم إعادة تعيين كلمة المرور بنجاح',
+    'Not Verify Reset Pasword Code , Verify it please and try again'=>'لم تقوم بتأكيد الحساب بعد إرسال طلب إعادة تعيين كلمة المرور , يرجى تأكيد الحساب والمحاولة مجددا',
+    'Please Check Your Email, and Verify it'=>'أرسلنا كود تحقق يرجى مراجعة بريدك الالكتروني وتأكيد الحساب',
+    'Old password does not match.'=>'كلمة المرور الحالية غير صحيحة' ,
+    'Password changed successfully.'=>'تم تغيير كلمة المرور بنجاح',
+    'The username field is required.'=>'اسم المستخدم مطلوب' ,
+    'The username has already been taken.'=>'اسم المستخدم موجود مسبقا' ,
+    'The fullname field is required.'=>'الاسم الكامل مطلوب' ,
+    'The fullname field is required.'=>'الاسم الكامل مطلوب' ,
+    'The email field is required.'=>' الإيميل مطلوب' ,
+    'Please enter a valid email address.'=>'يرجى إدخال إيميل صالح' ,
+    'The email has already been taken.'=>'الإيميل موجود مسبقا' ,
+    'The password field is required.' => 'كلمة المرور مطلوبة' ,
+    'The code field is required.' => 'كود التحقق مطلوب' ,
+    'The old password field is required.' => 'كلمة المرور الحالية مطلوبة' ,
+    'The password must be at least :min characters.' => 'يجب أن تكون كلمة المرور 8 محارف على الأقل' ,
+    'The password confirmation does not match.'=> 'كلمة المرور غير مطابقة' ,
+    'The provided email does not exist in our records.'=> 'الإيميل غير موجود',
+    'The code must be exactly :size characters.'=> 'يجب أن يكون كود التحقق 6 محارف فقط',
+    'Data Fetched Successfully' => 'تم جلب المعلومات بنجاح',
+    'Rating Added Successfully' => 'تم إضافة التقييم بنجاح',
+];

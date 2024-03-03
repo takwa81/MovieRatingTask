@@ -1,0 +1,366 @@
+{
+	"info": {
+		"_postman_id": "bc417c3b-5761-4820-97dc-cea5a65fdcae",
+		"name": "Einaya",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20077095",
+		"_collection_link": "https://red-water-838436.postman.co/workspace/Users-~7a5897b8-7478-4ce6-bf92-a59385cac5e4/collection/20077095-bc417c3b-5761-4820-97dc-cea5a65fdcae?action=share&source=collection_link&creator=20077095"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user_name",
+									"value": "takwa al nassouh",
+									"type": "text"
+								},
+								{
+									"key": "full_name",
+									"value": "TakwaMuhammadAlNassouh",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "takwamohamad136@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "12345678",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/api/signup",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "takwamohamad136@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "password",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/api/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "verify",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "takwamohamad136@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "code",
+									"value": "665574",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/api/verify",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"verify"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/logout",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "profile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzAzMjcxMjI2LCJleHAiOjE3MDMyNzQ4MjYsIm5iZiI6MTcwMzI3MTIyNiwianRpIjoiNkxnZ0VjcVA1UTRZVHhyQSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.BioNB1o-b496LyUwZXD5zvl9dKOOu1TVa8zz_5hWAMc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/profile",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateProfile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzAzMjcxMjI2LCJleHAiOjE3MDMyNzQ4MjYsIm5iZiI6MTcwMzI3MTIyNiwianRpIjoiNkxnZ0VjcVA1UTRZVHhyQSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.BioNB1o-b496LyUwZXD5zvl9dKOOu1TVa8zz_5hWAMc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user_name",
+									"value": "takwa99",
+									"type": "text"
+								},
+								{
+									"key": "full_name",
+									"value": "takwaAlnassouh",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/api/updateProfile",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"updateProfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ResetPassowrd",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "password",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "takwamohamad136@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/api/resetPassword",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"resetPassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "forgetPassword",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "takwamohamad136@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/api/forgetPassword",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"forgetPassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "changePassword",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzAzMjc3MTkzLCJleHAiOjE3MDMyODA3OTMsIm5iZiI6MTcwMzI3NzE5MywianRpIjoidTlJbnd5ZTh0MTB3QU1yTiIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.Luv95SbVViPivnIzVduAI7PX5fLxiUF8hLLVlU240do",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "old_password",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "password",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/api/changePassword",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"changePassword"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://127.0.0.1:8000",
+			"type": "string"
+		}
+	]
+}
